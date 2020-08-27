@@ -703,3 +703,12 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/artists" for 76.76.92.90 at 2020-08-27 19:00:08 +0000
+Cannot render console from 76.76.92.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 159ms (Views: 151.7ms | ActiveRecord: 0.7ms)
+
+
