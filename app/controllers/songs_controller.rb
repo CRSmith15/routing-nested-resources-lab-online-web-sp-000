@@ -13,6 +13,7 @@ class SongsController < ApplicationController
     else
       flash[:alert] = "Song not found."
       render :index
+    end
   end
 
   def new
