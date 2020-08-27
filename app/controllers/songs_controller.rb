@@ -10,7 +10,7 @@ class SongsController < ApplicationController
   def show
     if @song.artist.present?
       @song = Song.find(params[:id])
-    else 
+    else
       flash[:alert] = "Song not found."
       render :index
   end
